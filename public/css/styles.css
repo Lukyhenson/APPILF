@@ -1,0 +1,324 @@
+/*menu*/
+.navbar{
+    border: none;
+}
+.navbar-toggle{
+   margin-top: 17px;
+}
+.navbar-default{
+   min-height:70px;
+    background-color: #ffffff;
+    box-shadow: none;
+    border-radius: 0%;
+}
+.navbar-nav>li>a{
+    line-height: 40px;
+}
+.navbar-right {
+    margin-right: 0px;
+}
+.nav-right{
+    float: right;
+}
+@media(max-width:500px){
+    .nav-right{
+    float:none;
+}
+}
+.btn-register{
+    color: #fff !important;
+    background: orange;
+}
+.btn-register:hover{
+    color: #fff !important;
+    background: orange !important;
+}
+
+/*login*/
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 100%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-gl{
+    color: #fff;
+    background-color:#e04545;
+}
+.btn-gl:hover{
+    color: #fff;
+    background-color:#e02424;
+}
+.btn-signin{
+    color: #fff;
+    background-color:#00bf33;
+    border:none;
+}
+.btn-signin:hover{
+    color: #fff;
+    background-color:#00bf33;
+    border:none;
+}
+.btn-signin:active:focus{
+    color: #fff;
+    background-color:#00bf33;
+    border:none;
+}
+.btn-signin:focus{
+    color: #fff;
+    background-color:#00bf33;
+    border:none;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+
+/*logo*/
+.navbar-header{
+    min-height: 70px;
+}
+.navbar-brand{
+    min-height: 70px;
+}
+.logo{
+    width: 50px;
+    
+}
+
+*{
+    font-family: 'Reem Kufi', sans-serif;
+}
+body{
+  font-size: 16px;
+  line-height: 1.5;
+}
+header .navbar{
+  border-radius: 0;
+  margin: 0;
+}
+ul .navbar-right{
+    margin-right: 0px !important;
+}
+
+ #canvas-image, .hero{
+  background-image: url('../img/back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+}
+.hero-content{
+  position: absolute;
+  top: 220px;
+  text-align: center;
+  width: 100%;
+}
+
+.hero-content h2{
+  color:#fff;
+  font-size: 80px;
+}
+
+.hero-content p {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.hero-content .btn{
+  border-radius: 2px;
+  padding: 15px 30px;
+}
+.btn i{
+    font-size: 20px;
+}
+main{
+  min-height: 500px;
+  padding: 50px 0;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.row2 {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.btn-android{
+    background: #f0776c;
+    border: 2px solid #fff;
+}
+.btn-android:hover{
+    background: #fff;
+    color: #f0776c;
+    border: 2px solid #f0776c
+}
+.btn-ios{
+    background: #337ab7;
+    border: 2px solid #fff;
+}
+.btn-ios:hover{
+    color: #337ab7;
+    background: #fff;
+    border: 2px solid #337ab7;
+}
+
+.home{
+    margin-bottom: 10px;
+}
+
+footer{
+  margin-top: -10px;
+  padding:30px 0;
+  font-size: 14px;
+  color: #bbb;
+  background: #222;
+  text-align: center;
+}
+
+canvas{
+    width: 100%;
+    height: 500px;
+}
+
+/*register*/
+
+ #canvas-image2, .hero2{
+  background-image: url('../img/back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 135vh;
+  position: relative;
+}
+.hero-content2{
+  position: absolute;
+  top: 150px;
+  text-align: center;
+  width: 100%;
+}
+
+.hero-content2 h2{
+  color:#fff;
+  font-size: 80px;
+}
+
+.hero-content2 p {
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.hero-content2 .btn{
+  border-radius: 2px;
+  padding: 15px 30px;
+}
+
+/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+.register-container{
+    background:rgba(227, 227, 230, 0.59);
+    padding: 25px 25px 25px 25px;
+}
+.title-form{
+    color:#3b3c3a !important;
+}
+.sub-title-form{
+    color:#3b3c3a;
+}
+
+.terms{
+}
+
+.btn-agree{
+    background: #fff;
+}
+
+.btn-register-in{
+    border:2px solid #337ab7;
+    color:#337ab7;
+    background: rgba(227, 227, 230, 0.59);
+}
+.btn-register-in:hover{
+    border:2px solid #337ab7;
+    background: #337ab7;
+    color: #fff;
+}
+
+.btn-sign-in{
+    border:2px solid #00bf33;
+    color:#00bf33;
+    background: rgba(227, 227, 230, 0.59);
+}
+.btn-sign-in:hover{
+    border:2px solid #00bf33;
+    background: #00bf33;
+    color: #fff;
+}
+
+/*login page*/
+.login-logo{
+    height: 110px;
+}
+
+
+
+/*about page*/
+.container-about{
+    margin-top: 70px;
+    padding-top: 10px;
+    height: 50vh;
+}
+.container-our-team{
+    height: 60vh;
+    background-color: #e4e1e1;
+    padding-top: 30px;
+}
+.container-our-team h2{
+}

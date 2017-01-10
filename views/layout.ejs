@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I Lost I Found  &mdash; This is a platform where you can find your lost things</title>
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--JS-->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/granim.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+    
+    
+    <!-- favicon -->
+    <link rel="icon" href="/img/logo/favicon/favicon-16.png" sizes="16x16">
+    <link rel="icon" href="/img/logo/favicon/favicon-32.png" sizes="32x32">
+    <link rel="icon" href="/img/logo/favicon/favicon-48.png" sizes="48x48">
+    <link rel="icon" href="/img/logo/favicon/favicon-64.png" sizes="64x64">
+    <link rel="icon" href="/img/logo/favicon/favicon-128.png" sizes="128x128">
+    
+</head>
+<body>
+   
+   <header>
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <a href="/" class="navbar-brand navbar-center"><img src="/img/logo/logo.png" class="logo" alt="logo"></a>
+            
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>    
+        </div>
+        <div class="navbar-collapse collapse">
+           <ul class="nav navbar-nav nav-right navbar-right">
+        <li class="dropdown"><a href="/login" class=""><b>Login</b></a></li>
+        <li><a href="/register" class="btn-register">Register</a></li>
+           </ul>
+        </div>
+        </nav>
+   </header>
+   
+  <!-- Main content HERE -->
+
+<%- defineContent('hero') %>
+
+  <div class="container" style="">
+    <%- defineContent('body') %>
+  </div>
+ 
+    <footer class="footer">
+       <!-- <div class="navbar menu navbar-left">
+           <ul>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="">Premium Version</a></li>
+              <li><a href="/contact-us">Contact us</a></li>
+           </ul>
+       </div> -->
+        I Lost I Found. Copyright &copy; 2017
+    </footer>
+</body>
+</html>
+
+
+<script>
+    $(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
+</script>

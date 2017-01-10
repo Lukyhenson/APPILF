@@ -1,0 +1,42 @@
+    <%- contentFor('hero') %>
+    <canvas id="canvas-image">
+        <section class="hero"> 
+        </section>
+    </canvas>
+        
+     <div class="hero-content">
+         <h2>I <strong style="color:#f0776c;">Lost</strong> I <strong style="color:#6cc4f0;">Found</strong></h2>
+         <p>This is a platform where you can find your lost things</p>
+         <a href="" class="btn btn-lg btn-primary btn-android">Download for Android <i class="fa fa-android"></i></a> 
+         <a href="" class="btn btn-lg btn-primary btn-ios">Download for IOS <i class="fa fa-apple"></i></a> 
+     </div>
+    
+    
+    <%- contentFor('body') %>
+       <center>
+           <div class="row home">
+              <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+              <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+            </div>
+       </center>
+    
+    
+    
+
+<script>
+    var granimInstance = new Granim({
+    element: '#canvas-image',
+    direction: 'left-right',
+    opacity: [.4, .4, .4],
+    isPausedWhenNotInView: true,
+    states : {
+        "default-state": {
+            gradients: [
+                ['#c4e17f', '#f7fdca', '#fecf71'],
+                ['#f0776c', '#db9dbe', '#62c2e4']
+            ],
+            transitionSpeed: 5000
+        }
+    }
+});
+</script>

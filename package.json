@@ -1,0 +1,17 @@
+{
+  "name": "ilost_ifound",
+  "version": "1.0.0",
+  "description": "This is a platform where you can found your lost things.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tauan Tathiell",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
